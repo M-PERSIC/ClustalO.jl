@@ -1,6 +1,6 @@
-using ClustalO
+using MUSCLE
 using Test
 
-@testset "ClustalO.jl" begin
+@testset "MUSCLE.jl" begin
     # Write your tests here.
 end

@@ -1,45 +1,45 @@
-# <img src="./sticker.svg" width="30%" align="right" /> ClustalO.jl
+# <img src="./sticker.svg" width="30%" align="right" /> MUSCLE.jl
 
-<!-- [![Latest Release](https://img.shields.io/github/release/BioJulia/ClustalO.jl.svg)](https://github.com/BioJulia/ClustalO.jl/releases/latest)-->
-[![MIT license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/BioJulia/ClustalO.jl/blob/master/LICENSE) 
+<!-- [![Latest Release](https://img.shields.io/github/release/BioJulia/MUSCLE.jl.svg)](https://github.com/BioJulia/MUSCLE.jl/releases/latest)-->
+[![MIT license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/BioJulia/MUSCLE.jl/blob/master/LICENSE) 
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3361839.svg)](https://doi.org/10.5281/zenodo.3361839) -->
-[![Stable documentation](https://img.shields.io/badge/docs-stable-blue.svg)](https://biojulia.github.io/ClustalO.jl/stable)
-[![Latest documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://biojulia.github.io/ClustalO.jl/latest/)
+[![Stable documentation](https://img.shields.io/badge/docs-stable-blue.svg)](https://biojulia.github.io/MUSCLE.jl/stable)
+[![Latest documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://biojulia.github.io/MUSCLE.jl/latest/)
 <!-- [![Pkg Status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) -->
 
 > Note: This package is under extensive development and will receive frequent updates that may break functionality. It is not available in any public registry.
 
 
 ## Description
-Julia bindings for the [Clustal Omega](http://www.clustal.org/omega/) multiple sequence alignment program.
+Julia bindings for the [MUSCLE (MUltiple Sequence Comparison by Log-Expectation)](https://drive5.com/muscle5/) multiple sequence alignment program.
 
 This package is integrated into the broader BioJulia ecosystem, primarily as a multiple sequence alignment backend for [BioAlignments.jl](https://github.com/BioJulia/BioAlignments.jl.git).
 
 ## Installation
-You can install ClustalO from the julia REPL.
+You can install MUSCLE from the julia REPL.
 Press `]` to enter pkg mode, and enter the following:
 
 ```julia
-add ClustalO
+add MUSCLE
 ```
 
-You can also install ClustalO as an external program via its [JLL](https://docs.binarybuilder.org/stable/jll/) package:
+You can also install MUSCLE as an external program via its [JLL](https://docs.binarybuilder.org/stable/jll/) package:
 
 ```julia
-add ClustalO_jll
+add MUSCLE_jll
 ```
 
 If you are interested in the cutting edge of the development, please check out
 the master branch to try new features before release.
 
 ## Testing
-ClustalO is tested against Julia `1.X` on Linux, OS X, and Windows.
+MUSCLE is tested against Julia `1.X` on Linux, OS X, and Windows.
 
 **Latest build status:**
 
-[![Unit tests](https://github.com/BioJulia/ClustalO.jl/workflows/Unit%20tests/badge.svg?branch=master)](https://github.com/BioJulia/ClustalO.jl/actions?query=workflow%3A%22Unit+tests%22+branch%3Amaster)
-[![Documentation](https://github.com/BioJulia/ClustalO.jl/workflows/Documentation/badge.svg?branch=master)](https://github.com/BioJulia/ClustalO.jl/actions?query=workflow%3ADocumentation+branch%3Amaster)
-[![](https://codecov.io/gh/BioJulia/ClustalO.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/BioJulia/ClustalO.jl)
+[![Unit tests](https://github.com/BioJulia/MUSCLE.jl/workflows/Unit%20tests/badge.svg?branch=master)](https://github.com/BioJulia/MUSCLE.jl/actions?query=workflow%3A%22Unit+tests%22+branch%3Amaster)
+[![Documentation](https://github.com/BioJulia/MUSCLE.jl/workflows/Documentation/badge.svg?branch=master)](https://github.com/BioJulia/MUSCLE.jl/actions?query=workflow%3ADocumentation+branch%3Amaster)
+[![](https://codecov.io/gh/BioJulia/MUSCLE.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/BioJulia/MUSCLE.jl)
 
 ## Contributing
 We appreciate contributions from users including reporting bugs, fixing
@@ -66,5 +66,3 @@ Thank you to all our backers and sponsors!
 
 ## Questions?
 If you have a question about contributing or using BioJulia software, come on over and chat to us on [the Julia Slack workspace](https://julialang.org/slack/), or you can try the [Bio category of the Julia discourse site](https://discourse.julialang.org/c/domain/bio).
-
-
